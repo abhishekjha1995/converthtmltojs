@@ -1,0 +1,17 @@
+{
+  "name": "converthtmltojs",
+  "version": "1.0.4",
+  "description": "To store html code to a variable in js",
+  "main": "index.js",
+  "bin": {
+    "chjfile": "singleFile.js",
+    "chjfolder": "filesInFolder.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node singleFile",
+    "convertFolder": "node filesInFolder"
+  },
+  "author": "abhishek.jha",
+  "license": "ISC"
+}
